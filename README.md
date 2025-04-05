@@ -1,3 +1,3 @@
-research on whatsapp integration
-next todo
-understanding different formats of sending messages 
+Research on whatsapp integration.<br>
+Next Todo:<br>
+Understanding different formats of sending messages. 
