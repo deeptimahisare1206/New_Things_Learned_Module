@@ -16,7 +16,7 @@ public class WhatsappMessagingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WhatsappMessagingApplication.class, args);
-
+System.out.println("Welcome to WhatsApp sending..")
 //================================================================================
 
 		try {
