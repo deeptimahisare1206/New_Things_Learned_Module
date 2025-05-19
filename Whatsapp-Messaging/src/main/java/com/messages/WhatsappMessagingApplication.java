@@ -22,7 +22,7 @@ System.out.println("Welcome to WhatsApp sending..")
 		try {
 			HttpRequest request = HttpRequest.newBuilder()
 					.uri(new URI("https://graph.facebook.com/v22.0/<code>/messages"))
-					.header("Authorization", "Bearer <Token>")
+					.header("Authorization", "Bearer <Token>")//enter webtoken
 					.header("Content-Type", "aplication/json")
 					.POST(HttpRequest.BodyPublishers.ofString("{ \"messaging_product\": \"whatsapp\", \"to\":<number>\"\", \"type\": \"template\", \"template\": { \"name\": \"hello_world\", \"language\": { \"code\": \"en_US\" } } }"))
 					.build();
