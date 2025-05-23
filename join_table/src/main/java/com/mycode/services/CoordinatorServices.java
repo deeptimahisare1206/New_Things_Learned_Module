@@ -35,7 +35,7 @@ public class CoordinatorServices {
 	public Coordinator newcoordinator(RegistrationDTO dto) {
 	    // 1. Save User
 	    User user = new User();
-	    user.setUsername(dto.getFirstName());
+	    user.setUsername((dto.getFirstName()+"_"+dto.getLastName()).toLowerCase());
 	    user.setSetRole("COORDINATOR");
 	    user = userrepository.save(user); // Save and attach user
 

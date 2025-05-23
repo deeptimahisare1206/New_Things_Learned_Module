@@ -22,8 +22,8 @@ public class Subjects {
 
 	    private String subjectCode;
 
-	    @ManyToMany(mappedBy = "subject")
-	    private Set<Coordinator> coordinators;
+//	    @ManyToMany(mappedBy = "subject")
+//	    private Set<Coordinator> coordinators;
 
 	    // ✅ Use only business keys or immutable fields here
 	    @Override
