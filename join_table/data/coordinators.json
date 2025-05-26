@@ -1,0 +1,33 @@
+[ {
+  "id" : 3,
+  "first_name" : "Deepti",
+  "last_name" : null,
+  "email" : null,
+  "phone_no" : null,
+  "department" : null,
+  "userid" : null
+}, {
+  "id" : 4,
+  "first_name" : "Nayanshree",
+  "last_name" : "Soni",
+  "email" : "nayansoni@gmail.com",
+  "phone_no" : "9092989455",
+  "department" : "Teacher",
+  "userid" : null
+}, {
+  "id" : 5,
+  "first_name" : "Nayanshree",
+  "last_name" : "Soni",
+  "email" : "nayansoni@gmail.com",
+  "phone_no" : "9092989455",
+  "department" : "Teacher",
+  "userid" : null
+}, {
+  "id" : 6,
+  "first_name" : "yogesh",
+  "last_name" : "rajput",
+  "email" : "yogeshuu@gmail.com",
+  "phone_no" : "9839789789",
+  "department" : "Master",
+  "userid" : null
+} ]
