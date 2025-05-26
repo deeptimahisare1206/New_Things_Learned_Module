@@ -17,7 +17,8 @@ public class WhatsappMessagingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WhatsappMessagingApplication.class, args);
 System.out.println("Welcome to WhatsApp sending..")
-//================================================================================
+
+//================================================================================================================
 
 		try {
 			HttpRequest request = HttpRequest.newBuilder()
@@ -35,7 +36,7 @@ System.out.println("Welcome to WhatsApp sending..")
 			System.out.println("Error: " + e.getMessage());
 		}
 
-//================================================================================
+//================================================================================================================
 
 	}
 
