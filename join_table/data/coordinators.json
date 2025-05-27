@@ -1,33 +1,120 @@
 [ {
-  "id" : 3,
-  "first_name" : "Deepti",
-  "last_name" : null,
-  "email" : null,
-  "phone_no" : null,
-  "department" : null,
-  "userid" : null
+  "coordinator_id" : 13,
+  "first_name" : "Ravi",
+  "last_name" : "Sharma",
+  "email" : "ravi.sharma@example.com",
+  "phone_no" : "1234567890",
+  "department" : "Engineering",
+  "user" : {
+    "user_id" : 19,
+    "username" : "Ravi",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 5,
+    "subjectName" : "Mathematics",
+    "subjectCode" : "MAT101"
+  } ]
 }, {
-  "id" : 4,
-  "first_name" : "Nayanshree",
-  "last_name" : "Soni",
-  "email" : "nayansoni@gmail.com",
-  "phone_no" : "9092989455",
-  "department" : "Teacher",
-  "userid" : null
+  "coordinator_id" : 14,
+  "first_name" : "Aarav",
+  "last_name" : "Patel",
+  "email" : "aarav.patel@example.com",
+  "phone_no" : "9876543210",
+  "department" : "Science",
+  "user" : {
+    "user_id" : 20,
+    "username" : "Aarav",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 6,
+    "subjectName" : "Physics",
+    "subjectCode" : "PHY101"
+  } ]
 }, {
-  "id" : 5,
-  "first_name" : "Nayanshree",
-  "last_name" : "Soni",
-  "email" : "nayansoni@gmail.com",
-  "phone_no" : "9092989455",
-  "department" : "Teacher",
-  "userid" : null
+  "coordinator_id" : 15,
+  "first_name" : "gita",
+  "last_name" : "Patel",
+  "email" : "gitttaa.patel@example.com",
+  "phone_no" : "9834553210",
+  "department" : "Science",
+  "user" : { 
+    "user_id" : 21,
+    "username" : "gita",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 6,
+    "subjectName" : "Physics",
+    "subjectCode" : "PHY101"
+  } ]
 }, {
-  "id" : 6,
-  "first_name" : "yogesh",
-  "last_name" : "rajput",
-  "email" : "yogeshuu@gmail.com",
-  "phone_no" : "9839789789",
-  "department" : "Master",
-  "userid" : null
+  "coordinator_id" : 16,
+  "first_name" : "deepti",
+  "last_name" : "mahisare",
+  "email" : "deepti.mahi@example.com",
+  "phone_no" : "9998498545",
+  "department" : "Programming",
+  "user" : {
+    "user_id" : 22,
+    "username" : "deepti_mahisare",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 7,
+    "subjectName" : "DSA",
+    "subjectCode" : "DSA101"
+  } ]
+}, {
+  "coordinator_id" : 17,
+  "first_name" : "Rajesh",
+  "last_name" : "Kumar",
+  "email" : "rajesh.kumar@example.com",
+  "phone_no" : "9876543210",
+  "department" : "Engineering",
+  "user" : {
+    "user_id" : 23,
+    "username" : "Rajesh_Kumar",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 6,
+    "subjectName" : "Physics",
+    "subjectCode" : "PHY101"
+  } ]
+}, {
+  "coordinator_id" : 18,
+  "first_name" : "John",
+  "last_name" : "Doe",
+  "email" : "john.doe@example.com",
+  "phone_no" : "1234567890",
+  "department" : "Marketing",
+  "user" : {
+    "user_id" : 24,
+    "username" : "john_doe",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 5,
+    "subjectName" : "Mathematics",
+    "subjectCode" : "MAT101"
+  } ]
+}, {
+  "coordinator_id" : 19,
+  "first_name" : "Jane",
+  "last_name" : "Smith",
+  "email" : "jane.smith@example.com",
+  "phone_no" : "0987654321",
+  "department" : "Sales",
+  "user" : {
+    "user_id" : 25,
+    "username" : "jane_smith",
+    "setRole" : "COORDINATOR"
+  },
+  "subject" : [ {
+    "subject_id" : 8,
+    "subjectName" : "Science",
+    "subjectCode" : "SCI102"
+  } ]
 } ]
