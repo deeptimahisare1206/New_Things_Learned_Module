@@ -24,17 +24,17 @@ public class WhatsappIntegrationApplication {
 //		private static final Logger logger = LoggerFactory.getLogger(WhatsappIntegrationApplication.class);
 //		try {
 //			HttpRequest request = HttpRequest.newBuilder()
-//					.uri(new URI("https://graph.facebook.com/v22.0/641409745713769/messages"))
+//					.uri(new URI("https://graph.facebook.com/v22.0/<PHONENUMBER_ID>/messages"))
 //					.header("Authorization",
-//							"Bearer EAAdZALUTW9RABOZCSTpsbXDoeIvkFDnmmHqZBjbssZC02633YSKjfDHKgiGufV0xqYuHRaxBVvJyxkJ1eAMdVnxZC4AHUGJzZAzkBK9YUUEEVKiEZA9CpXep06MNxOktlWGuZCs12bTUlU8GhfysnKRu6Af18JuVgwZAuEZB9L4crzktaDAjrmC2svKwBiZBfzjjZCpEu9KB8nDDeuK4Wx3CsL5CNVZAzUAVgLZAtxblEZD")
+//							"Bearer <BEARER_TOKEN>")
 //					.header("Content-Type", "application/json")
-////					.POST(HttpRequest.BodyPublishers.ofString("{ \"messaging_product\": \"whatsapp\", \"to\": \"919993998317\", \"type\": \"template\", \"template\": { \"name\": \"hello_world\", \"language\": { \"code\": \"en_US\" } } }"))
+////					.POST(HttpRequest.BodyPublishers.ofString("{ \"messaging_product\": \"whatsapp\", \"to\": \"<NUMBER SENT>\", \"type\": \"template\", \"template\": { \"name\": \"hello_world\", \"language\": { \"code\": \"en_US\" } } }"))
 ////
 ////					.POST(HttpRequest.BodyPublishers.ofString(
-////							"{ \"messaging_product\": \"whatsapp\", \"recipient_type\": \"individual\", \"to\": \"919993998317\", \"type\": \"text\", \"text\": { \"preview_url\": false, \"body\": \"Hello , Welcome to the meta developer testing messages under Api messages section\" } }"))
+////							"{ \"messaging_product\": \"whatsapp\", \"recipient_type\": \"individual\", \"to\": \"<NUMBER SENT>\", \"type\": \"text\", \"text\": { \"preview_url\": false, \"body\": \"Hello , Welcome to the meta developer testing messages under Api messages section\" } }"))
 //
 //					.POST(HttpRequest.BodyPublishers.ofString("{ \"messaging_product\": \"whatsapp\", "
-//							+ "\"to\": \"919993998317\", " + "\"type\": \"template\", " + "\"template\": { "
+//							+ "\"to\": \"<NUMBER SENT>\", " + "\"type\": \"template\", " + "\"template\": { "
 //							+ "\"name\": \"feedback_survey_2\", " + "\"language\": { \"code\": \"en_US\" }, "
 //							+ "\"components\": [" + "{\"type\": \"body\", \"parameters\": ["
 //							+ "{\"type\": \"text\", \"text\": \"Anthony Gon Salvis\"}, "
