@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Modules Included
+## 🚀 Modules Included:
 
 ### 1. WhatsApp Messaging (Meta API via Webhooks)
 - **Description:** *Send and receive automated WhatsApp messages using **Meta’s WhatsApp Cloud API**, with webhook routing via **Hookdeck** and tunneling via **Loophole**.*
