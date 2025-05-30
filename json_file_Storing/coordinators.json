@@ -1,0 +1,79 @@
+[ {
+  "name" : "deepti mahi",
+  "email" : "deepmahi@example.com",
+  "department" : "CS",
+  "timetable" : [ {
+    "courseName" : "Math",
+    "day" : "Monday",
+    "time" : "1:00-2:00"
+  }, {
+    "courseName" : "dbms",
+    "day" : "Wednesday",
+    "time" : "11:00-12:00"
+  } ]
+}, {
+  "name" : "John Doe",
+  "email" : "john@example.com",
+  "department" : "CS",
+  "timetable" : [ {
+    "courseName" : "Math",
+    "day" : "Monday",
+    "time" : "9:00-10:00"
+  }, {
+    "courseName" : "Physics",
+    "day" : "Wednesday",
+    "time" : "11:00-12:00"
+  } ]
+}, {
+  "name" : "Ravi Kumar",
+  "email" : "ravi.kumar@example.com",
+  "department" : "CS",
+  "timetable" : [ {
+    "courseName" : "Algorithms",
+    "day" : "Tuesday",
+    "time" : "9:30-10:30"
+  }, {
+    "courseName" : "Data Structures",
+    "day" : "Thursday",
+    "time" : "12:00-1:00"
+  } ]
+}, {
+  "name" : "Maria Lee",
+  "email" : "maria.lee@example.com",
+  "department" : "ME",
+  "timetable" : [ {
+    "courseName" : "Thermodynamics",
+    "day" : "Wednesday",
+    "time" : "9:00-10:30"
+  }, {
+    "courseName" : "Mechanics",
+    "day" : "Friday",
+    "time" : "1:30-2:30"
+  } ]
+}, {
+  "name" : "Yogesh",
+  "email" : "yogesh@example.com",
+  "department" : "CSE",
+  "timetable" : [ {
+    "courseName" : "Math",
+    "day" : "Tuesday",
+    "time" : "1:00-2:00"
+  }, {
+    "courseName" : "dbms",
+    "day" : "Saturday",
+    "time" : "11:00-12:00"
+  } ]
+}, {
+  "name" : "Nayanshree",
+  "email" : "nayan12tha@example.com",
+  "department" : "IT",
+  "timetable" : [ {
+    "courseName" : "BlockChain",
+    "day" : "Monday",
+    "time" : "1:00-2:00"
+  }, {
+    "courseName" : "Computer Networks",
+    "day" : "Thursday",
+    "time" : "11:00-12:00"
+  } ]
+} ]
