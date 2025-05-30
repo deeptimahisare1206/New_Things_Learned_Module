@@ -1,6 +1,6 @@
 # Practice Project: Backend Functionalities and Integrations
 
-*This repository includes various modules for practicing and demonstrating backend development using **Java Spring Boot**. It covers real-world backend tasks such as **WhatsApp API integration** with Meta, **complex SQL joins**, and **bulk data import from Excel files** using Postman.*
+*This repository includes various modules for practicing and demonstrating backend development using **Java Spring Boot**. It covers real-world backend tasks such as **WhatsApp API integration** with Meta, **complex SQL joins**, and **bulk data import from Excel files or CSV files** using Postman.*
 
 ---
 
