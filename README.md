@@ -36,7 +36,22 @@
 
 ---
 
-### 3. Join Three Tables in SQL
+### 3. Store Data in Local JSON File
+**Description:** *Implements functionality to save submitted form or API request data into a local JSON file. This provides a backup or logging mechanism to track all incoming data, useful for auditing or recovery.*
+
+**Tech Used:**
+ - Java Spring Boot
+ - Jackson Library (for JSON serialization)
+ - File I/O (Java NIO or standard I/O)
+
+**Features:**
+ - Automatic JSON file creation and update on each data submission
+ - Appends new entries to maintain a full log
+ - Useful for offline access, debugging, or data recovery scenarios
+
+---
+
+### 4. Join Three Tables in SQL
 - **Description:** *Demonstrates SQL JOIN queries using Spring Boot and MySQL. Example uses `Users`, `Co-ordinators`, and `TimeTable` tables to retrieve combined relational data.*
 - **Tech Used:** 
   - Java Spring Boot  
@@ -51,7 +66,7 @@
 
 ---
 
-### 4. Bulk Upload from Excel to MySQL
+### 5. Bulk Upload from Excel to MySQL
 - **Description:** *Upload an Excel (.xlsx) file via Postman and insert the data into MySQL in bulk.*
 - **Tech Used:** 
   - Java Spring Boot  
@@ -66,7 +81,7 @@
 
 ---
 
- ### 5. Bulk Upload from CSV to MySQL with OpenAPI Documentation
+ ### 6. Bulk Upload from CSV to MySQL with OpenAPI Documentation
  - **Description:** *Upload a CSV (.csv) file via a REST API and insert the data into MySQL in bulk.*
  - **Tech Used:**
     - Java Spring Boot
