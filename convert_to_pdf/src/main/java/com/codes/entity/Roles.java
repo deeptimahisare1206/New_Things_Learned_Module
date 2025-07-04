@@ -14,6 +14,13 @@ public class Roles {
 	
 	private String name;
 	private String description;
+	
+	
+	@Override
+	public String toString() {
+	    return this.name;  // assuming you have a `name` field
+	}
+	
 	public Integer getId() {
 		return id;
 	}

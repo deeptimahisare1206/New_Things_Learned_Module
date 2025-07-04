@@ -21,31 +21,18 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @RestController
 public class UserController {
-	
+
 	@Autowired
-	 private UserService service;
-     
-	    @GetMapping("/users/export/pdf")
-	    public void exportToPDF(HttpServletResponse response) throws DocumentException, IOException {
-	        response.setContentType("application/pdf");
-	        DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
-	        String currentDateTime = dateFormatter.format(new Date());
-	         
-	        String headerKey = "Content-Disposition";
-	        String headerValue = "attachment; filename=users_" + currentDateTime + ".pdf";
-	        response.setHeader(headerKey, headerValue);
-	         
-	        List<Users> listUsers = service.listAll();
-	         
-	        UserPdfExporter exporter = new UserPdfExporter(listUsers);
-	        exporter.export(response);
-	         
-	    }
-	    
+	private UserService service;
 
-	    @PostMapping("/users/add")
-	    public Users create(@RequestBody Users users) {
+	@GetMapping("/users/export/pdf")
+	public void exportToPDF(HttpServletResponse response) throws DocumentException, IOException {
+		service.exportToPDF(response);
+	}
 
-	    	return service.createuser(users);
-	    }
+	@PostMapping("/users/add")
+	public Users create(@RequestBody Users users) {
+
+		return service.createuser(users);
+	}
 }
