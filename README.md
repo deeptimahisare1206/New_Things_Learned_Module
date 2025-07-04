@@ -97,6 +97,29 @@
 
 ---
 
+
+### 7. Convert Database Records to PDF Report with REST API
+
+- **Description:** *Generate a downloadable PDF file containing data fetched from a MySQL database using a Spring Boot REST API.*
+
+- **Tech Used:**
+
+  - Java Spring Boot
+  - iText PDF or OpenPDF (PDF generation)
+  - MySQL
+  - Postman for API testing
+
+- **Features**:
+
+  - Fetch records from MySQL using JPA/Hibernate
+  - Format data into a structured PDF (e.g., tables, headings)
+  - Downloadable via a `/export/pdf` GET endpoint
+  - Customizable report layout (title, date, pagination, etc.)
+  - Error handling for empty data or generation failures
+
+
+---
+
 ## 🧪 How to Use
 
 ### Prerequisites
