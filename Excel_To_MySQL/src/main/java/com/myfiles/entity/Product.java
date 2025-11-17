@@ -11,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+//This will work only after the installation of lambok software in the IDE
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,3 +25,4 @@ public class Product {
 	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	private Date startDate;
 }
+
