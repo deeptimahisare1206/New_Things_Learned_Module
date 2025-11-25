@@ -3,7 +3,6 @@ package com.mycode.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-//import com.mycode.dao.copy.CordinatorRepository;
 import com.mycode.models.CoordinatorRequest;
 import com.mycode.utils.JsonFileWriter;
 
@@ -25,3 +24,4 @@ public class CoordinatorService {
 	        jsonFileWriter.writeCoordinatorToFile(request);
 	    }
 }
+
