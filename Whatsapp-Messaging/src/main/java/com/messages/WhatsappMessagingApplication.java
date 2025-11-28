@@ -36,7 +36,6 @@ System.out.println("Welcome to WhatsApp sending..")
 			System.out.println("Error: " + e.getMessage());
 		}
 
-//================================================================================================================
 
 	}
 
