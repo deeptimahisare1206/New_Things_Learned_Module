@@ -129,7 +129,4 @@
 - Hookdeck & Loophole accounts (for WhatsApp webhook)
 
 ---
-next TO DO cloudinary 
-AWS, CLOUD PLATFORM 
-
 
