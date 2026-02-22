@@ -5,7 +5,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class JoinTableApplicationTests {
-
+//Write the test cases here 
+	
 	@Test
 	void contextLoads() {
 	}
