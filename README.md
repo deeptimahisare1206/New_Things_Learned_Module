@@ -1,4 +1,4 @@
-# Practice Modules: Backend Functionalities and Integrations(WHATSAPP) 
+# Practice Modules: Backend Functionalities and Integrations(Meta Developer) 
 *This repository includes various modules for practicing and demonstrating backend development using **Java Spring Boot**. It covers real-world backend tasks such as **WhatsApp API integration** with Meta, **SQL joins**, and **bulk data import from Excel files or CSV files** using Postman.*
 
 ---
